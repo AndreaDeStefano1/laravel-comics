@@ -1,0 +1,79 @@
+@import './vars';
+
+.bg-color-black{
+  background-color: #1c1c1c;
+}
+.label-for-coimics{
+  top: -30px;
+  z-index: 999;
+  background-color: lighten($primary-color, 10%);
+  color: white;
+  padding: 5px 20px;
+}
+.ds-btn{
+  background-color: lighten($primary-color, 10%);
+  color: white;
+  margin: 0 auto;
+  padding: 5px 30px;
+  font-weight: 700;
+}
+.w-mc{
+  width: max-content;
+}
+
+.card-w{
+    width: calc(100% / 6);
+    padding: 5px;
+
+  }
+  .card{
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+
+  }
+  .no-bg{
+    background-color: transparent;
+  }
+  .card-top{
+    height: 200px;
+
+}
+
+
+// jumbotron
+.jumbotron-style{
+  margin-top: -24px;
+  background-image: url('../img/jumbotron.jpg');
+  height: 525px;
+  background-size: cover;
+
+}
+
+// sezione shop
+.shop-comp{
+  .background-primary-light{
+    background-color: lighten($primary-color, 10%);
+
+    }
+    ul{
+      margin-left: -62px;
+      list-style: none;
+    }
+
+    img{
+      // transform: scale(0.5);
+      height: 50px;
+      max-width: 65px;
+
+
+    }
+    li{
+      a{
+        color: white;
+        text-decoration: none;
+        // white-space: nowrap
+      }
+    }
+  }

@@ -78,11 +78,11 @@
         <div class="social-link">
           <ul class="d-flex">
             <li><h4>FOLLOW US</h4></li>
-            <li><img src="../assets/img/footer-facebook.png" alt=""></li>
-            <li><img src="../assets/img/footer-twitter.png" alt=""></li>
-            <li><img src="../assets/img/footer-youtube.png" alt=""></li>
-            <li><img src="../assets/img/footer-pinterest.png" alt=""></li>
-            <li><img src="../assets/img/footer-periscope.png" alt=""></li>
+            <li><img src="../img/footer-facebook.png" alt=""></li>
+            <li><img src="../img/footer-twitter.png" alt=""></li>
+            <li><img src="../img/footer-youtube.png" alt=""></li>
+            <li><img src="../img/footer-pinterest.png" alt=""></li>
+            <li><img src="../img/footer-periscope.png" alt=""></li>
           </ul>
         </div>
 

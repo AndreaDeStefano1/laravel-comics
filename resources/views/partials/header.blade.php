@@ -34,8 +34,8 @@
                         <li class=" ">
                             <a class="nav-link-text d-flex align-items-center " aria-current="page" href="">FANS</a>
                         </li>
-                        <li class=" ">
-                            <a class="nav-link-text d-flex align-items-center " aria-current="page" href="">NEWS</a>
+                        <li class=" {{ Route::currentRouteName() === 'news' ? 'ds-active' : '' }}  ">
+                            <a class="nav-link-text d-flex align-items-center " aria-current="page" href="{{ route('news') }}">NEWS</a>
                         </li>
                         <li class=" ">
                             <a class="nav-link-text d-flex align-items-center " aria-current="page" href="">SHOP</a>
