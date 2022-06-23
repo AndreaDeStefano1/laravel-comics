@@ -1,0 +1,22 @@
+header .bg-color-white {
+  background-color: white;
+}
+header .nav-link-text {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px;
+}
+header nav {
+  height: 150px;
+}
+header a {
+  height: 132px;
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+}
+header li.ds-active > a,
+header li > a:hover {
+  color: #0c7cec;
+  border-bottom: 4px solid #0c7cec;
+}
