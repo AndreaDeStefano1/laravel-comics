@@ -22,7 +22,6 @@ header li > a:hover {
 }
 
 footer {
-  margin-top: -24px;
   background-image: url("../img/footer-bg.jpg");
   background-position: center;
   background-size: cover;
@@ -104,7 +103,6 @@ footer .footer-bottom ul li {
 }
 
 .jumbotron-style {
-  margin-top: -24px;
   background-image: url("../img/jumbotron.jpg");
   height: 525px;
   background-size: cover;
@@ -135,4 +133,10 @@ ul a {
 }
 ul p {
   color: whitesmoke;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
