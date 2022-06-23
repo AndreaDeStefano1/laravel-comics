@@ -1,0 +1,42 @@
+@import './vars';
+
+footer{
+  background-image: url('../img/footer-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+
+  ul li h3{
+    color: white;
+    font-weight: 800;
+  }
+
+  ul{
+    list-style: none;
+
+    a{
+      text-decoration: none;
+      color: #848082;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  .footer-image{
+    right: 0;
+    top: -80px;
+
+  }
+  h4{
+    color: $primary-color;
+    font-weight: 700;
+  }
+  .footer-bottom{
+    background-color: #303030;
+    ul li{
+      margin: 0 10px;
+    }
+
+  }
+
+}
